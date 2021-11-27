@@ -1,1 +1,12 @@
-import heufhfhs
+import pandas as pd
+import numpy as np
+import tensorflow as tf
+import matplotlib.pyplot as plt
+import cv2 as op
+import string
+from keras.preprocessing.text import Tokenizer
+from keras import models
+from keras.preprocessing.image import load_img, img_to_array
+from keras.preprocessing.sequence import pad_sequences
+from keras.applications.vgg16 import VGG16
+from keras.models import Model
